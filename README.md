@@ -2,7 +2,7 @@
 
 Welcome to my molecular dynamics (MD) simulation portfolio.
 
-This repository contains projects completed using **GROMACS** as part of my MSc Bioinformatics & Biotechnology. The portfolio demonstrates my experience with molecular dynamics simulations, protein preparation, ligand parameterization, and trajectory analysis.
+This repository contains projects completed using **GROMACS** as part of my project. The portfolio demonstrates my experience with molecular dynamics simulations, protein preparation, ligand parameterization, and trajectory analysis.
 
 ---
 
