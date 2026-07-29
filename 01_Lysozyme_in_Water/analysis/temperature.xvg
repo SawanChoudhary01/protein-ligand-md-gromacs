@@ -1,0 +1,45 @@
+# This file was created Sun Jul  5 06:25:34 2026
+# Created by:
+#          :-) GROMACS - gmx energy, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /mnt/d/lysozyme_in_water
+# Command line:
+#   gmx energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  296.170593
+    5.000000  274.117493
+   10.000000  294.140198
+   15.000000  299.322113
+   20.000000  298.757874
+   25.000000  294.389008
+   30.000000  296.868347
+   35.000000  298.484039
+   40.000000  298.355103
+   45.000000  298.911194
+   50.000000  298.674957
+   55.000000  295.947540
+   60.000000  295.437805
+   65.000000  297.431519
+   70.000000  298.682190
+   75.000000  297.163818
+   80.000000  297.067841
+   85.000000  298.552979
+   90.000000  297.919525
+   95.000000  302.773865
+  100.000000  299.469482
