@@ -1,0 +1,18 @@
+# GROMACS simulation files
+*.xtc
+*.trr
+*.edr
+*.cpt
+*.tpr
+*.log
+
+# Temporary files
+*.bak
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
