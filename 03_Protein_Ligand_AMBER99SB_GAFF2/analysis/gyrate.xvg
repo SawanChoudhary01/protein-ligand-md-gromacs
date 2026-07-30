@@ -1,0 +1,33 @@
+# This file was created Wed Jul 29 11:48:03 2026
+# Created by:
+#          :-) GROMACS - gmx gyrate, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/sawanlinux/protlig2
+# Command line:
+#   gmx gyrate -s md_0_1.tpr -f md_0_1.xtc -o gyrate.xvg
+# gmx gyrate is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Radius of gyration (total and around axes)"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Rg (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Rg"
+@ s1 legend "Rg\sX\N"
+@ s2 legend "Rg\sY\N"
+@ s3 legend "Rg\sZ\N"
+         0     1.65317     1.45968     1.37578     1.20105
+        10      1.6868     1.49563      1.4029     1.21883
+        20     1.67899     1.49107     1.38402     1.22443
+        30     1.68897     1.50374     1.39178     1.22759
+        40     1.67792     1.49946     1.39974     1.19296
+        50     1.68632     1.50594     1.42229     1.18178
