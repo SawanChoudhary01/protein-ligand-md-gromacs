@@ -1,0 +1,23 @@
+# This file was created Fri Jul 24 09:22:02 2026
+# Created by:
+#         :-) GROMACS - gmx distance, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /mnt/d/againprotlig
+# Command line:
+#   gmx distance -s md_0_10.tpr -f md_0_10_center.xtc -select 'resname "jz4" and name O10 plus resid 102 and name OE1' -oall
+# gmx distance is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "Distance"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Distance (nm)"
+@TYPE xy
+      0.000    0.319
+     10.000    0.477
+     20.000    0.353
+     30.000    0.595
+     40.000    0.580
+     50.000    0.639

@@ -1,0 +1,24 @@
+# This file was created Fri Jul 24 09:25:25 2026
+# Created by:
+#            :-) GROMACS - gmx rms, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /mnt/d/againprotlig
+# Command line:
+#   gmx rms -s em.tpr -f md_0_10_center.xtc -n index.ndx -tu ns -o rmsd_jz4.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "RMSD"
+@    xaxis  label "Time (ns)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "JZ4_Heavy after lsq fit to Backbone"
+   0.0000000    0.0486052
+   0.0100000    0.0982945
+   0.0200000    0.0864091
+   0.0300000    0.1197456
+   0.0400000    0.0950689
+   0.0500000    0.1174094

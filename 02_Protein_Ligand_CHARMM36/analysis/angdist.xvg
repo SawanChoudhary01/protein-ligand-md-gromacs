@@ -1,0 +1,50 @@
+# This file was created Fri Jul 24 09:24:07 2026
+# Created by:
+#           :-) GROMACS - gmx angle, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /mnt/d/againprotlig
+# Command line:
+#   gmx angle -f md_0_10_center.xtc -n index.ndx -ov angle.xvg
+# gmx angle is part of G R O M A C S:
+#
+# GRoups of Organic Molecules in ACtion for Science
+#
+@    title "Angle Distribution: jz4_&_O10_H22_Protein_&_r_102_&_OE1"
+@    xaxis  label "Degrees"
+@    yaxis  label ""
+@TYPE xy
+@    subtitle "average angle: 108.756\So\N"
+        92    0.000000
+        93    0.166667
+        94    0.000000
+        95    0.000000
+        96    0.000000
+        97    0.000000
+        98    0.000000
+        99    0.000000
+       100    0.000000
+       101    0.000000
+       102    0.166667
+       103    0.000000
+       104    0.000000
+       105    0.166667
+       106    0.000000
+       107    0.000000
+       108    0.000000
+       109    0.000000
+       110    0.000000
+       111    0.000000
+       112    0.000000
+       113    0.000000
+       114    0.000000
+       115    0.166667
+       116    0.166667
+       117    0.000000
+       118    0.000000
+       119    0.000000
+       120    0.000000
+       121    0.000000
+       122    0.166667
+       123    0.000000

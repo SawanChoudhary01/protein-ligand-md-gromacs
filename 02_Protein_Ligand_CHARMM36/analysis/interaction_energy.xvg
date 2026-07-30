@@ -1,0 +1,31 @@
+# This file was created Fri Jul 24 09:32:52 2026
+# Created by:
+#          :-) GROMACS - gmx energy, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /mnt/d/againprotlig
+# Command line:
+#   gmx energy -f ie.edr -o interaction_energy.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Coul-SR:Protein-jz4"
+@ s1 legend "LJ-SR:Protein-jz4"
+    0.000000  -12.210423  -96.736633
+   10.000000    3.297324  -101.154663
+   20.000000   -8.148748  -110.766602
+   30.000000    1.704630  -111.418228
+   40.000000   -3.147569  -109.703949
+   50.000000    0.695106  -94.107780
