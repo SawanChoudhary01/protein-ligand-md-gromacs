@@ -1,0 +1,24 @@
+# This file was created Fri Jul 31 09:05:36 2026
+# Created by:
+#            :-) GROMACS - gmx rms, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/sawanlinux/md_projects/protein_ligand_charmm36_150mM
+# Command line:
+#   gmx rms -s md_0_1.tpr -f md_0_1.xtc -o rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0005020
+  10.0000000    0.0509377
+  20.0000000    0.0554538
+  30.0000000    0.0673615
+  40.0000000    0.0644027
+  50.0000000    0.0645644

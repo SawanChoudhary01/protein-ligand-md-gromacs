@@ -1,0 +1,31 @@
+# This file was created Fri Jul 31 09:07:35 2026
+# Created by:
+#           :-) GROMACS - gmx hbond, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/sawanlinux/md_projects/protein_ligand_charmm36_150mM
+# Command line:
+#   gmx hbond -s md_0_1.tpr -f md_0_1.xtc -num hbnum.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+         0         141         814
+        10         139         817
+        20         131         810
+        30         136         806
+        40         135         815
+        50         140         806

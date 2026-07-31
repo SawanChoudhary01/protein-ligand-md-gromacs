@@ -1,52 +1,106 @@
-# Molecular Dynamics Portfolio using GROMACS
+# 🧬 Protein–Ligand Molecular Dynamics Simulations Using GROMACS
 
-Welcome to my molecular dynamics (MD) simulation portfolio.
+This repository contains a collection of **Molecular Dynamics (MD) simulation projects** performed using **GROMACS**. The projects progress from a basic protein simulation in water to advanced protein–ligand simulations using different force fields and physiologically relevant ionic conditions.
 
-This repository contains projects completed using **GROMACS** as part of my project. The portfolio demonstrates my experience with molecular dynamics simulations, protein preparation, ligand parameterization, and trajectory analysis.
+The repository serves as a learning portfolio demonstrating the complete molecular dynamics workflow, including system preparation, topology generation, solvation, ion addition, equilibration, production simulations, and trajectory analysis.
 
 ---
 
-## Repository Contents
+# 📂 Repository Structure
 
-### 1. Lysozyme in Water
-- Protein preparation
-- Solvation
-- Energy minimization
-- NVT equilibration
-- NPT equilibration
-- Production MD simulation
-- Analysis (RMSD, RMSF, Radius of Gyration)
+```text
+protein-ligand-md-gromacs/
+│
+├── 01_Lysozyme_in_Water/
+├── 02_Protein_Ligand_CHARMM36/
+├── 03_Protein_Ligand_AMBER99SB/
+├── 04_Protein_Ligand_charmm36_150mM/
+│
+├── .gitignore
+└── README.md
+```
 
-### 2. Protein–Ligand MD using CHARMM36
-- Protein-ligand complex preparation
-- CHARMM36 force field
-- Molecular dynamics simulation
-- Trajectory analysis
+---
 
-### 3. Protein–Ligand MD using AMBER99SB-ILDN + GAFF2
-- Protein preparation using AMBER99SB-ILDN
-- Ligand parameterization using ACPYPE (GAFF2)
-- Complete MD workflow
-- RMSD
-- RMSF
-- Radius of Gyration
+# 📚 Projects
+
+| Project | Description |
+|----------|-------------|
+| **[01. Lysozyme in Water](01_Lysozyme_in_Water/)** | Introduction to molecular dynamics simulation of lysozyme in an aqueous environment using GROMACS. |
+| **[02. Protein–Ligand (CHARMM36)](02_Protein_Ligand_CHARMM36/)** | Protein–ligand molecular dynamics simulation using the CHARMM36 force field. |
+| **[03. Protein–Ligand (AMBER99SB)](03_Protein_Ligand_AMBER99SB/)** | Protein–ligand molecular dynamics simulation using the AMBER99SB force field. |
+| **[04. Protein–Ligand (CHARMM36, 150 mM NaCl)](04_Protein_Ligand_charmm36_150mM/)** | Protein–ligand molecular dynamics simulation using the CHARMM36 force field under physiological ionic conditions (150 mM NaCl). |
+
+---
+
+# 🔬 Skills Demonstrated
+
+- Molecular Dynamics (MD) Simulations
+- Protein Structure Preparation
+- Ligand Preparation
+- CHARMM36 Force Field
+- AMBER99SB Force Field
+- Topology Generation
+- Simulation Box Construction
+- System Solvation
+- Physiological Ion Addition (150 mM NaCl)
+- Energy Minimization
+- NVT Equilibration
+- NPT Equilibration
+- Production Molecular Dynamics
+- Trajectory Analysis
+- Root Mean Square Deviation (RMSD)
+- Root Mean Square Fluctuation (RMSF)
+- Radius of Gyration (Rg)
 - Hydrogen Bond Analysis
-- SASA Analysis
+- Solvent Accessible Surface Area (SASA)
 
 ---
 
-## Software Used
+# 🛠️ Software Used
 
-- GROMACS
-- ACPYPE
-- Open Babel
+- GROMACS 2023.3
+- Ubuntu (WSL)
 - PyMOL
-- Ubuntu (WSL2)
+- CGenFF
+- Grace (xmgrace)
 
 ---
 
-## Author
+# 📈 Analyses Performed
+
+The projects include one or more of the following analyses:
+
+- Temperature
+- Pressure
+- Density
+- Root Mean Square Deviation (RMSD)
+- Root Mean Square Fluctuation (RMSF)
+- Radius of Gyration (Rg)
+- Hydrogen Bond Analysis
+- Solvent Accessible Surface Area (SASA)
+
+---
+
+# ⭐ Repository Highlights
+
+- Complete GROMACS molecular dynamics workflows
+- Protein and protein–ligand molecular dynamics simulations
+- Multiple force fields (CHARMM36 & AMBER99SB)
+- Physiological ionic environment (150 mM NaCl)
+- Step-by-step simulation workflow
+- Reproducible project organization
+- Comprehensive trajectory analysis
+
+---
+
+# 👨‍💻 Author
 
 **Sawan Choudhary**
 
-MSc Bioinformatics & Biotechnology
+M.Sc. Bioinformatics & Biotechnology  
+Chanakya University
+
+---
+
+⭐ *This repository documents my learning journey in Molecular Dynamics Simulations using GROMACS, progressing from fundamental protein simulations to advanced protein–ligand systems under biologically relevant conditions.*

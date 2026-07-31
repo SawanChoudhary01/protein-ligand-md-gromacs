@@ -1,0 +1,33 @@
+# This file was created Fri Jul 31 09:07:18 2026
+# Created by:
+#          :-) GROMACS - gmx gyrate, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/sawanlinux/md_projects/protein_ligand_charmm36_150mM
+# Command line:
+#   gmx gyrate -s md_0_1.tpr -f md_0_1.xtc -o gyrate.xvg
+# gmx gyrate is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Radius of gyration (total and around axes)"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Rg (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Rg"
+@ s1 legend "Rg\sX\N"
+@ s2 legend "Rg\sY\N"
+@ s3 legend "Rg\sZ\N"
+         0     1.64973     1.45467       1.375     1.19856
+        10     1.66032     1.46946     1.39555     1.18595
+        20     1.66142     1.47095     1.40128     1.18041
+        30     1.67454     1.48445     1.41674     1.18213
+        40     1.67525     1.48321     1.41323     1.18988
+        50     1.66634     1.47481     1.39685     1.19463

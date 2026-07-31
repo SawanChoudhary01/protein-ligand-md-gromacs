@@ -1,0 +1,30 @@
+# This file was created Fri Jul 31 09:07:46 2026
+# Created by:
+#           :-) GROMACS - gmx sasa, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/sawanlinux/md_projects/protein_ligand_charmm36_150mM
+# Command line:
+#   gmx sasa -s md_0_1.tpr -f md_0_1.xtc -o sasa.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000   89.829
+     10.000   89.904
+     20.000   91.152
+     30.000   93.485
+     40.000   91.409
+     50.000   92.517
